@@ -1,0 +1,206 @@
+@font-face 
+{
+ font-family: "Open Sans";
+ src: url("/Ressources_Booki/Raleway/Raleway-VariableFont_wght.ttf") format("ttf"),
+        url("/Ressources_Booki/Raleway/Raleway-VariableFont_wght.ttf") format("ttf");
+}
+
+body
+{
+	margin: 50px;
+}
+
+.entete
+{
+	display: flex;
+    justify-content: space-between;
+    align-items: justify;
+}
+
+
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+	width: 70px;
+	height: 35px;
+}
+
+nav
+{
+	text-decoration: none;
+	text-align: right;
+	font-family: Raleway, Arial;
+}
+
+nav ul
+{
+	 list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    color: grey;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #0065FC;
+	border-top: 3px solid #0065FC;
+	padding-top: 64px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.recherche
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Raleway, Arial;
+}
+.recherche h1
+{
+	font-size: 18px;
+}
+
+.recherche p
+{
+	font-size: 14px;
+}
+
+.recherche input
+{
+	height: 30px;
+	width: 150px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+ul
+{
+	display: flex;
+	text-decoration: none;
+
+}
+
+code
+{
+	font-family: Raleway, Arial;
+}
+
+.cash
+{
+	list-style-image: url(Ressources_Booki/images/icons/cash.png);
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	height: 35px;
+	width: 150px;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+.man
+{
+	list-style-image: url(Ressources_Booki/images/icons/man.png);
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	height: 35px;
+	width: 150px;
+}
+
+.heart
+{
+	list-style-image: url(Ressources_Booki/images/icons/heart.png);
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	height: 35px;
+	width: 150px;
+}
+
+.pet
+{
+	list-style-image: url(Ressources_Booki/images/icons/pet.png);
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	height: 35px;
+	width: 150px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+@media all and (max-width: 768px)
+{
+	body
+		{
+			margin: 30px;
+		}
+
+	.entete
+		{
+			display: flex;
+			flex-direction: column;
+   		 	justify-content: center;
+  		  	align-items: center;
+		}
+
+	nav
+		{
+			text-decoration: none;
+			text-align: center;
+			font-family: Raleway, Arial;
+		}
+
+		nav li
+		{
+		    margin-right: none;
+		}
+
+		nav a
+		{
+		    color: grey;
+		    text-decoration: none;
+		}
+
+		nav a:hover
+		{
+			color: #0065FC;
+			border-bottom: 3px solid #0065FC;
+			border-top: none;
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
