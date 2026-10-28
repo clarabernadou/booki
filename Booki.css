@@ -1,7 +1,7 @@
 @font-face 
 {
  font-family: "Raleway";
- src: url("/Ressources_Booki/Font/Raleway/Raleway-VariableFont_wght.ttf") format("ttf");
+ src: url("Ressources_Booki/Font/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
 }
 
 body
